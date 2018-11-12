@@ -1,4 +1,5 @@
 import "../a/importA.wdl" as importA
+import "../a/importB.wdl" as importB
 
 task hello {
   String name
