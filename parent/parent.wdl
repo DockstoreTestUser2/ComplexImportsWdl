@@ -19,6 +19,6 @@ workflow test {
   call hello
   call importA.helloTwo
   call importB.helloFour
-  call importA.helloThree
-  call importB.helloFive
+  call importA.importC.helloThree
+  call importB.importD.helloFive
 }
